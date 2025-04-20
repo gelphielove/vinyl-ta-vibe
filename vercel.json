@@ -1,15 +1,8 @@
 {
-  "version": 2,
   "builds": [
     {
-      "src": "pages/index.tsx",
+      "src": "package.json",
       "use": "@vercel/next"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/pages/index.tsx"
     }
   ]
 }
